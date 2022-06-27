@@ -16,10 +16,7 @@ public class Book {
     @Column(name = "TITLE")
     private String title;
 
-    public Book(String genre, String title) {
-        this.genre = genre;
-        this.title = title;
-    }
+
 
     public long getUid() {
         return uid;

@@ -31,10 +31,12 @@ public class BookService {
 
 
     public List getBookList(String title, String genre){
-
+        Book book = new Book();
+        book.setTitle(title);
+        book.setGenre(genre);
+        bookRepository.save(book);
         List books = new ArrayList<>();
-        bookRepository.save(new Book(title,genre));
-
+        books.add(book);
         return books;
     }
 }

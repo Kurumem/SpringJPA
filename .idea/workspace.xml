@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb0026c5-12f6-489a-9ea1-13c3d4070b06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +50,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Kurumem/Desktop/SpringBootH2DatabaseExample-master"
+    "last_opened_file_path": "C:/Users/Kurumem/Desktop/SpringJPA/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kurumem\Desktop\SpringJPA\src\main\resources" />
+      <recent name="C:\Users\Kurumem\Desktop\SpringJPA\src\main\resources\template" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringJPA" />
@@ -86,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656326103339</updated>
-      <workItem from="1656326107116" duration="13183000" />
+      <workItem from="1656326107116" duration="21533000" />
     </task>
     <servers />
   </component>
@@ -103,16 +104,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/service/BookService.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
