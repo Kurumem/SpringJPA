@@ -23,26 +23,31 @@ public class BookController {
 
     }
     //Поиск книги по ид
-    @GetMapping("/books/id/{id}")
-    private Book getBook(@PathVariable("id") long id){
+    @GetMapping("/books/find")
+    private Book getBook(@RequestParam(value = "id") long id){
         return bookService.getBookId(id);
     }
 
 
     //Поиск книги по названию
-    @GetMapping("/books/title/{title}")
-    private List getBookTitle(@PathVariable("title") String title){
+    @GetMapping("/books/find")
+    private List getBookTitle(@RequestParam(value = "title") String title){
          return bookService.getBookTitle(title);
     }
 
     //Добавить книгу в БД
-    @GetMapping("/books/add/{title}&&{genre}")
-    private List saveList(@PathVariable("title") String title, @PathVariable("genre") String genre) {
+    @GetMapping("/books/add")
+    private List saveList(@RequestParam(value = "title") String title, @RequestParam(value = "genre") String genre) {
 
         bookService.getBookList(title,genre);
         return bookService.getAllBooks();
     }
+    //Удалить книгу по ид
+    @GetMapping("/books/delete")
+    private void deleteBook(@RequestParam(value = "id") long id){
 
+         bookService.deleteBook(id);
+    }
 
 
 }

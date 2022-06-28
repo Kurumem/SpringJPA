@@ -39,4 +39,10 @@ public class BookService {
         books.add(book);
         return books;
     }
+    
+    public void deleteBook(Long id){
+        if(bookRepository.findById(id).isPresent()) {
+            bookRepository.deleteById(id);
+        }
+    }
 }
